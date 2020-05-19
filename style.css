@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Big Shoulders Display', cursive;    
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid .navbar {
+    background-color: black;
+    
+}
+
+.grid .landing {
+    background-color:black;
+}
+
+.grid .thisis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.grid .salr1 {
+    background-color: brown;
+    height: 700px;
+    display: flex;
+    
+}
+
+.grid .salr2 {
+    height: 700px;
+    background-color: yellow;
+    opacity: 0.75;
+    text-align: center;
+    padding-top: 70px ;
+    border-style: solid 2px black;
+    
+}
+h2 {
+
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 70px;
+    color: black;
+    
+}
+
+p {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+
+}
+
+.grid .tour {
+    background-color: black;
+    height: 500px;
+}
+
+h1 {
+    color: yellow;
+    font-style: italic;
+    opacity: .75;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.grid .listen {
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    opacity: 75px;
+    background-image: url("./bc50880a90f85aa0df25d30e5b829b5a.jpg");
+    background-size: 1400px;
+    
+}
+
+h4 {
+    color: yellow;
+    font-style: italic;
+    opacity: .75;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.grid .shop {
+    background-color: ghostwhite;
+
+height: 800px;
+
+}
+
+.card-deck {
+    /* padding-left: 100px;
+    padding-right: 100px; */
+
+}
+
+.card {
+    height: 600px;
+    
+
+}
+
+.card-title {
+    text-align: center;
+}
+.card-img-top {
+    height: 350px;
+}
+.grid .footer {
+    background-color: black;
+}
+
+
+
+    
+
+#nav1 {  
+    background-color: white; /*whichever you want*/
+    opacity: 0.5; 
+    filter:(opacity=75);  
+         
+}
+.navbar {
+    font-size: 30px;
+    padding-right: 90px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+h3 {
+    color: white;
+    opacity: 0.5;
+}
+/* 
+.yellow {
+    font-style: italic;
+    background-color: black;
+    color: yellow;
+    opacity: 0.8; */
+    /* display: flex;
+    text-align: center; */
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+    
+    
+}
+
+
+.overlay {
+    position: absolute; 
+    top: 0 ;
+    bottom: 0;
+    left: 0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.50;
+    padding-top: 400px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: italic;
+    font-size: 60px;
+    color: yellow;
+}
+
+#icons.container {
+    padding-top: 10px;
+    opacity: 0.5;
+    display: flex;
+    align-content: center;
+}
+
+#listen.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#tour.container {
+    display: flex;
+
+}
+
+
+
+
+.carousel-inner {
+    
+    height: 700px;
+    
+}
+
+
+.third {
+    backg
+}
