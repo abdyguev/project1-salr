@@ -13,9 +13,21 @@ body {
     display: grid;
     grid-template-columns: 1fr;
 }
-
+ 
 .grid .navbar {
     background-color: black;
+    
+}
+#nav1 {  
+    background-color: white; /*whichever you want*/
+    opacity: 0.5; 
+    filter:(opacity=75);  
+         
+}
+.navbar {
+    font-size: 30px;
+    padding-right: 90px;
+    font-family: 'Big Shoulders Display', cursive;
     
 }
 
@@ -42,7 +54,9 @@ body {
     opacity: 0.75;
     text-align: center;
     padding-top: 70px ;
-    border-style: solid 2px black;
+    border-style: solid ;
+    border-color: black;
+    border-width: 4px;
     
 }
 h2 {
@@ -65,61 +79,170 @@ p {
 
 .grid .tour {
     background-color: black;
-    height: 500px;
+    height: 700px;
+    background-image: url("./IMG_2035.JPG");
+    background-size: 2300px ;
+    background-position: right;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    
+
 }
 
+#tour.container {
+    display: flex;
+    
+}
+
+.dates {
+    color: whitesmoke;
+    
+    
+    
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn-secondary {
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+.dates #date {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.dates #venue {
+    font-size: 23px;
+}
 h1 {
     color: yellow;
     font-style: italic;
     opacity: .75;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
     font-size: 60px;
 }
 
 .grid .listen {
-    height: 500px;
+    height: 700px;
     border-style: solid;
     border-color: black;
     opacity: 75px;
-    background-image: url("./bc50880a90f85aa0df25d30e5b829b5a.jpg");
+    background-image: url("./bc50880a90f85aa0df25d30e5b829b5a.jpg"); 
     background-size: 1400px;
+
+    
     
 }
 
+.shopcart p {
+    color: black;
+    font-style: italic;
+    opacity: .75;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 38px;
+}
+
+.sub-preview p {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    opacity: .75;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+
+.grid .shopitems {
+    display: grid;
+    grid-template-columns: 1.80fr .20fr;
+    
+}
+
+#subtotal-value p {
+    color: white;
+}
+
+.grid .shop {
+    background-image: url("https://wpamelia.com/wp-content/uploads/2019/02/abstract-art-black-background-1040499.jpg");
+    background-size: 860px;
+    height: 700px;
+
+}
+
+h6 {
+    color: black;
+    opacity: .75;
+    text-align: center;
+    text-justify: auto;
+    font-size: 20px;
+}
 h4 {
     color: yellow;
     font-style: italic;
     opacity: .75;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
     font-size: 60px;
+
 }
 
-.grid .shop {
-    background-color: ghostwhite;
 
-height: 800px;
+
+button:hover {
+    font-style: italic;
+}
+
+ul li:hover {
+    font-style: italic;
+}
+
+h5 {
+    color: white;
+    font-style: italic;
+    opacity: .55;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
 
 }
 
 .card-deck {
-    /* padding-left: 100px;
-    padding-right: 100px; */
-
-}
-
-.card {
-    height: 600px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     
 
 }
 
+.card {
+    height: 260px;
+    background-color: whitesmoke;
+    
+
+}
+
+.card-body {
+    background-color: darkgray;
+}
+
 .card-title {
     text-align: center;
+    font-size: 20px;;
 }
 .card-img-top {
-    height: 350px;
+    height: 200px;
 }
 .grid .footer {
     background-color: black;
@@ -146,22 +269,14 @@ h3 {
     color: white;
     opacity: 0.5;
 }
-/* 
-.yellow {
-    font-style: italic;
-    background-color: black;
-    color: yellow;
-    opacity: 0.8; */
-    /* display: flex;
-    text-align: center; */
-}
+
 
 .container {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 72px;
+    padding-top: 78px;
     
     
 }
@@ -186,16 +301,22 @@ h3 {
 
 #icons.container {
     padding-top: 10px;
+    padding-left: 30px;
     opacity: 0.5;
     display: flex;
     align-content: center;
 }
 
+/* #icon.container {
+    /* padding-right: 5px;
+    padding-left: 5px; */
+
+
 #listen.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 75px;
 }
 
 #tour.container {
@@ -213,6 +334,133 @@ h3 {
 }
 
 
-.third {
+/* .third {
     backg
+} */
+
+/*  SHOPPING CART */
+
+
+th,
+td,
+button,
+input {
+  padding: 0.75em 1em;
+  color: transparent
 }
+
+table#cart {
+  width: 50%; 
+  border-collapse: collapse;
+  margin: auto;
+  background-color: transparent;
+  
+}
+
+.shopcart {
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+    opacity: .60;
+}
+
+
+table#cart td,
+table input {
+  /* border: 1px solid #dadada; */
+  
+}
+
+table input[type='number'] {
+  max-width: 4em;
+  background-color: transparent;
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  border: 0;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.btn-success,
+.btn-remove {
+  color: white;
+  font-size: 10px;
+  padding-top: 2px;
+  text-align: center;
+}
+
+.name {
+    color: black;
+}
+.price {
+    color: black;
+}
+
+.btn-success {
+  background-color: #2cc5fa;
+}
+
+.btn-remove {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+}
+
+.action {
+    text-align: center;
+}
+
+h1,
+h2,
+.calculate-total {
+  text-align: center;
+}
+
+.checkout-btn{
+    text-align: center;
+    padding-top: 30px;
+    color:black
+    
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+
+}
+.leftWrapper{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.yellow {
+    font-style: italic;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}
+
+.activePadding {
+    padding-top: 78px;
+}
+
+.nav-brand {
+    padding-top: 0%;
+}
+
+.activeLanding {
+    padding-top: 0%;
+    margin-top: 0cm;
+}
+
+
+
+
+
+
+

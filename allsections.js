@@ -1,64 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SALR</title>
-  <link rel="icon"
-    href="//static1.squarespace.com/static/5d9b85b6d649e27cb7b4272d/t/5e7930d82cf0137b2ee0f41e/1585005006389/?format=1500w">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=The+Girl+Next+Door&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-
-  <div class="grid">
-    <div class="navbar">
-      <nav class="navbar navbar-expand-lg  fixed-top navbar-dark" id="nav1" style="background-color: black">
-
-        <button class="nav-brand" style="background-color: transparent; border: white; height: 78px;" href="#">
-          <img
-            src="//static1.squarespace.com/static/5d9b85b6d649e27cb7b4272d/t/5e7930d82cf0137b2ee0f41e/1585005006389/?format=1500w"
-            width=110px height=auto alt="sailr">
-        </button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active ">
-              <button class="nav-link" id="thisissalr" style="background-color: transparent; border: transparent" href="#">THISISSALR<span
-                  class="sr-only">(current)</span></button>
-            </li>
-            <li class="nav-item active">
-              <button class="nav-link" id="tour" style="background-color: transparent; border: transparent" href="#">TOUR<span class="sr-only">(current)</span></button>
-            </li>
-            <li class="nav-item active">
-              <button class="nav-link" id="listen" style="background-color: transparent; border: transparent" href="#">LISTEN<span class="sr-only">(current)</span></button>
-            </li>
-            <li class="nav-item active">
-              <button class="nav-link" id="shop" style="background-color: transparent; border: transparent" href="#">SHOP<span class="sr-only">(current)</span></button>
-            </li>
-            </form>
-
-        </div>
-      </nav>
-
-
-    </div>
-
-    <div id="mid-section">
-
-      <section>
-
-        <div class="landing">
+var wholePage = `
+<div class="landing">
           <div style="text-align:center;">
             <div class='container'>
               <video autoplay loop muted>
@@ -157,7 +98,7 @@
               <ul style="list-style:none">
                 <li id="date">Sat, July 4</li>
                 <li id="venue">REVOLUTION LIVE</li>
-                <li id="location">Ft. Lauderdale, FL</li>
+                <li id="location">Ft. LAuderdale, FL</li>
               </ul>
 
 
@@ -210,8 +151,8 @@
 
             <h5>SHOP</h5>
             <div class="card-deck">
-              <div class="card h-600" style="width: 100px; ">
-                <img src="Screenshot (1).png" class="card-img-top" alt="front">
+              <div class="card h-600" style="width: 100px">
+                <img src="Screenshot (1).png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h6 class="card-title">SALR t-shirt</h6>
                   <p class="card-text"> </p>
@@ -242,11 +183,11 @@
             <table id="cart">
               <thead>
                 <tr>
-                  <th style="color: black;">Product Name</th>
-                  <th style="color: black;">Quantity</th>
-                  <th style="color: white;">Subtotal</th>
-                  <th style="color: black;">Unit Price</th>
-                  <th style="color: black;">Remove</th>
+                  <th>Product Name</th>
+                  <th>Quantity</th>
+                  <th>Subtotal</th>
+                  <th>Unit Price</th>
+                  <th>Remove</th>
                 </tr>
               </thead>
               <tbody>
@@ -257,33 +198,31 @@
                   <td class="quantity">
                     <input type="number" value="0" min="0" placeholder="Quantity" />
                   </td>
-                  <td class="subtotal" style="color: white;">$<span>0</span></td>
+                  <td class="subtotal"></td>
                   <td class="price">$<span>20.00</span></td>
                   <td class="action">
                     <button class="btn btn-remove">X</button>
                   </td>
                 </tr>
-                <tr class="product">
                 <td class="name">
                   <span>"Feelings" hoodie</span>
                 </td>
                 <td class="quantity">
                   <input type="number" value="0" min="0" placeholder="Quantity" />
                 </td>
-                <td class="subtotal" style="color: white;">$<span>0</span></td>
+                <td class="subtotal"></td>
                 <td class="price">$<span>25.00</span></td>
                 <td class="action">
                   <button class="btn btn-remove">X</button>
                 </td>
                 </tr>
-                <tr class="product">
                 <td class="name">
                   <span>"Feelings" vinyl</span>
                 </td>
                 <td class="quantity">
                   <input type="number" value="0" min="0" placeholder="Quantity" />
                 </td>
-                <td class="subtotal" style="color: white;">$<span>0</span></td>
+                <td class="subtotal"></td>
                 <td class="price">$<span>15.00</span></td>
                 <td class="action">
                   <button class="btn btn-remove">X</button>
@@ -296,61 +235,12 @@
               </tbody>
 
             </table>
-            <div class="sub-preview">
             <p id="subtotal-value">Subtotal: $<span>0</span></p>
-          </div>
             <div class="checkout-btn">
-              <button type="button" id="calculate" class="btn btn-primary">CHECKOUT</button>
+              <button type="button" class="btn btn-primary">CHECKOUT</button>
             </div>
           </div>
         </div>
 
     </div>
-
-    </section>
-  </div>
-
-
-
-  <div class="footer">
-
-    <div class="container" id="icons">
-      <a href="https://accounts.spotify.com/en/login/?continue=https:%2F%2Fsupport.spotify.com%2Fus%2Faccount_payment_help%2Fsubscription_options%2Fspotify-new-subscriber-offers%2F&_ga=2.89995166.467871919.1589811374-203125633.1589811374"
-        target="_blank">
-        <img src="social-media.png" height=40px style="margin-right: 10px" style="margin-left: 10px">
-      </a>
-      <a href="https://www.youtube.com/channel/UCfUENr1kWDHKIffw0w0BW7g" target="_blank">
-        <img src="social-media (1).png" height=40px style="margin-right: 10px" style="margin-left: 10px">
-      </a>
-      <a href="https://www.instagram.com/thisissalr/" target="_blank">
-        <img src="social-media (2).png" height=40px style="margin-right: 10px" style="margin-left: 10px">
-      </a>
-    </div>
-    <div class="leftWrapper">
-      <h3><mark class="yellow">SUBSCRIBE</mark> & <mark class="yellow">FOLLOW</mark>
-        TO GET UPDATES FROM SALR!</h3>
-    </div>
-
-  </div>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-
-  <script type="text/javascript" src="script.js"></script>
-  <script type="text/javascript" src="thisissalr.js"></script>
-  <script type="text/javascript" src="tour.js"></script>
-  <script type="text/javascript" src="listen.js"></script>
-  <script type="text/javascript" src="shop.js"></script>
-  <script type="text/javascript" src="allsections.js"></script>
-</body>
-
-</html>
+    `
