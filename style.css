@@ -99,7 +99,6 @@ p {
     color: whitesmoke;
     
     
-    
 }
 
 .tickets {
@@ -118,18 +117,13 @@ p {
 
 .dates #date {
     font-style: italic;
-    font-size: 18px;
-}
-
-.dates #venue {
-    font-size: 23px;
 }
 h1 {
     color: yellow;
     font-style: italic;
     opacity: .75;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
     font-size: 60px;
 }
 
@@ -146,24 +140,13 @@ h1 {
 }
 
 .shopcart p {
-    color: black;
+    color: yellow;
     font-style: italic;
     opacity: .75;
     text-align: center;
-    padding-top: 70px;
-    font-size: 38px;
+    padding-top: 20px;
+    font-size: 60px;
 }
-
-.sub-preview p {
-    color: black;
-    text-align: center;
-    font-style: italic;
-    opacity: .75;
-    padding-top: 10px;
-    font-size: 28px;
-}
-
-
 .grid .shopitems {
     display: grid;
     grid-template-columns: 1.80fr .20fr;
@@ -175,8 +158,8 @@ h1 {
 }
 
 .grid .shop {
-    background-image: url("https://wpamelia.com/wp-content/uploads/2019/02/abstract-art-black-background-1040499.jpg");
-    background-size: 860px;
+    background-color: wheat;
+    background-size: 1000px;
     height: 700px;
 
 }
@@ -193,25 +176,15 @@ h4 {
     font-style: italic;
     opacity: .75;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
     font-size: 60px;
 
 }
 
-
-
-button:hover {
-    font-style: italic;
-}
-
-ul li:hover {
-    font-style: italic;
-}
-
 h5 {
-    color: white;
+    color: black;
     font-style: italic;
-    opacity: .55;
+    opacity: .75;
     text-align: center;
     padding-top: 100px;
     font-size: 60px;
@@ -222,24 +195,18 @@ h5 {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    
 
 }
 
 .card {
-    height: 260px;
-    background-color: whitesmoke;
+    height: 300px;
     
 
 }
 
-.card-body {
-    background-color: darkgray;
-}
-
 .card-title {
     text-align: center;
-    font-size: 20px;;
+    font-size: 30px;;
 }
 .card-img-top {
     height: 200px;
@@ -346,24 +313,17 @@ td,
 button,
 input {
   padding: 0.75em 1em;
-  color: transparent
+  color: white
 }
 
 table#cart {
   width: 50%; 
   border-collapse: collapse;
   margin: auto;
-  background-color: transparent;
+  background-color: black;
   
 }
 
-.shopcart {
-    background-color: white;
-    border: solid;
-    border-color: black;
-    border-width: 4px;
-    opacity: .60;
-}
 
 
 table#cart td,
@@ -374,8 +334,7 @@ table input {
 
 table input[type='number'] {
   max-width: 4em;
-  background-color: transparent;
-  color: black;
+  background-color: black;
 }
 
 .btn {
@@ -387,17 +346,7 @@ table input[type='number'] {
 
 .btn-success,
 .btn-remove {
-  color: white;
-  font-size: 10px;
-  padding-top: 2px;
-  text-align: center;
-}
-
-.name {
-    color: black;
-}
-.price {
-    color: black;
+  color: red;
 }
 
 .btn-success {
@@ -405,14 +354,7 @@ table input[type='number'] {
 }
 
 .btn-remove {
-  background-color: black;
-  height: 15px;
-  width: 15px;
-  text-align: center;
-}
-
-.action {
-    text-align: center;
+  background-color: yellow;
 }
 
 h1,
@@ -424,18 +366,16 @@ h2,
 .checkout-btn{
     text-align: center;
     padding-top: 30px;
-    color:black
     
 }
 
 .btn-primary {
-    background-color: black;
-    color: white;
+    background-color: yellow;
+    color: black
 
 }
 .leftWrapper{
     text-align: center;
-    padding-top: 10px;
 }
 
 .yellow {
@@ -452,15 +392,3 @@ h2,
 .nav-brand {
     padding-top: 0%;
 }
-
-.activeLanding {
-    padding-top: 0%;
-    margin-top: 0cm;
-}
-
-
-
-
-
-
-
