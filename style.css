@@ -9,10 +9,15 @@ body {
     font-family: 'Big Shoulders Display', cursive;    
     
 }
+
 .grid{
     display: grid;
     grid-template-columns: 1fr;
 }
+
+
+/* NAVBAR */
+
  
 .grid .navbar {
     background-color: black;
@@ -31,6 +36,27 @@ body {
     
 }
 
+#nav1 {  
+    background-color: white; /*whichever you want*/
+    opacity: 0.5; 
+    filter:(opacity=75);  
+         
+}
+.navbar {
+    font-size: 30px;
+    padding-right: 90px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+.nav-brand {
+    padding-top: 0%;
+}
+
+
+/* LANDING */
+
+
 .grid .landing {
     background-color:black;
 }
@@ -40,6 +66,8 @@ body {
     grid-template-columns: 1fr 1fr;
     
 }
+
+/* THISISSALR */
 
 .grid .salr1 {
     background-color: brown;
@@ -77,6 +105,8 @@ p {
 
 }
 
+
+/* TOUR */
 .grid .tour {
     background-color: black;
     height: 700px;
@@ -124,6 +154,8 @@ p {
 .dates #venue {
     font-size: 23px;
 }
+
+
 h1 {
     color: yellow;
     font-style: italic;
@@ -132,6 +164,8 @@ h1 {
     padding-top: 60px;
     font-size: 60px;
 }
+
+/* LISTEN */
 
 .grid .listen {
     height: 700px;
@@ -144,6 +178,8 @@ h1 {
     
     
 }
+
+/* SHOP */
 
 .shopcart p {
     color: black;
@@ -252,18 +288,7 @@ h5 {
 
     
 
-#nav1 {  
-    background-color: white; /*whichever you want*/
-    opacity: 0.5; 
-    filter:(opacity=75);  
-         
-}
-.navbar {
-    font-size: 30px;
-    padding-right: 90px;
-    font-family: 'Big Shoulders Display', cursive;
-    
-}
+
 
 h3 {
     color: white;
@@ -449,9 +474,7 @@ h2,
     padding-top: 78px;
 }
 
-.nav-brand {
-    padding-top: 0%;
-}
+
 
 .activeLanding {
     padding-top: 0%;
