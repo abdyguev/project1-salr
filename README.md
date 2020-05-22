@@ -40,5 +40,6 @@ Make the website functional and use Dom to navigate within the website
 ### Trello 
 https://trello.com/b/SXJkRhuD/welcome-to-trello
 ### Git
-
+https://abdyguev.github.io/project1-salr/
 ### Slides
+https://docs.google.com/presentation/d/1pqvSVjUXEB0e1BzNui2TCustJ0bBho6yuYnvWTtZFeQ/edit?usp=sharing
