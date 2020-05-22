@@ -38,7 +38,7 @@ Use Bootstrap Components to website
 Make the website functional and use Dom to navigate within the website
 ## Links
 ### Trello 
-https://trello.com/b/SXJkRhuD/welcome-to-trello
+https://trello.com/b/SXJkRhuD/salr-website
 ### Git
 https://abdyguev.github.io/project1-salr/
 ### Slides
